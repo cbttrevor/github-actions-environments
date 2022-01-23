@@ -1,0 +1,11 @@
+name: Deploy AWS Fargate container
+
+on:
+  workflow_dispatch:
+  push:
+
+env:
+
+jobs:
+  fargate:
+    
