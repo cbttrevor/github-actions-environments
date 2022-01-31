@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   push:
 
-env:
-
 jobs:
   fargate:
     runs-on: ubuntu-latest
