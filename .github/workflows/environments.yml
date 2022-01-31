@@ -7,7 +7,7 @@ on:
 jobs:
   fargate:
     runs-on: ubuntu-latest
-    environment: prod
+    environment: production
     steps:
     - shell: pwsh
       run: |
