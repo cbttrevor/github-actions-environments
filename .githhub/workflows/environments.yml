@@ -8,4 +8,7 @@ env:
 
 jobs:
   fargate:
-    
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        Install-Module -Name AWS.Tools.ECS -Force
